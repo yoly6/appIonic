@@ -1,0 +1,97 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary" no-border>
+    <ion-buttons slot="start">
+      <ion-button  [routerLink]="['/carpetas']">
+        <ion-icon name="arrow-back-sharp"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title>
+      Listar
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <br><br><br>
+ 
+  <div class="title">
+    <h2>Agregar Archivos</h2>
+  </div>
+  <div>
+    <ion-button method="post"  enctype="multipart/form-data">
+      Ingresa el archivo:
+        
+        <input name="imagen" type="file" />
+        <ion-icon name="document-attach-outline"></ion-icon>
+      </ion-button>
+  </div>
+  <br><hr>
+  <div class="live-event">
+    <img src="../../assets/events/papel.svg" width="100" height="100" />
+
+    <div class="info">
+      <div class="content">
+        <h6>matematicas</h6>
+     
+        <ion-card-content>
+          <ion-button shape="round" color="secondary" size="small" >
+            <ion-icon size="small" slot="icon-only" name="create"></ion-icon>
+  
+          </ion-button>
+        
+          <ion-button shape="round" color="danger" size="small" >
+            <ion-icon size="small" slot="icon-only" name="trash"></ion-icon>
+  
+          </ion-button>
+      
+        </ion-card-content>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="live-event">
+    <img src="../../assets/events/papel.svg" width="100" height="100" />
+
+    <div class="info">
+      <div class="content">
+        <h6>Lenguaje</h6>
+        <ion-card-content>
+          <ion-button shape="round" color="secondary" size="small" >
+            <ion-icon size="small" slot="icon-only" name="create"></ion-icon>
+  
+          </ion-button>
+          
+          <ion-button shape="round" color="danger" size="small" >
+            <ion-icon size="small" slot="icon-only" name="trash"></ion-icon>
+  
+          </ion-button>
+        </ion-card-content>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="live-event">
+    <img src="../../assets/events/papel.svg" width="100" height="100" />
+
+    <div class="info">
+      <div class="content">
+        <h6>Programacion</h6>
+        <ion-card-content>
+          <ion-button shape="round" color="secondary" size="small" >
+            <ion-icon size="small" slot="icon-only" name="create"></ion-icon>
+  
+          </ion-button>
+          
+          <ion-button shape="round" color="danger" size="small" >
+            <ion-icon size="small" slot="icon-only" name="trash"></ion-icon>
+  
+          </ion-button>
+        </ion-card-content>
+      </div>
+
+    </div>
+  </div>
+ 
+</ion-content>
